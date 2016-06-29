@@ -1,0 +1,29 @@
+/* ----------------------------------------------------------------
+-------------------------------- BUTTON
+---------------------------------------------------------------- */
+
+.btn, .btn:active, .btn:focus, button.btn, button.btn:active, button.btn:focus {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: GothamBold;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  padding: 12px 26px 10px 26px;
+  border: 2px solid palette(grey, x-dark);
+  color: palette(grey, x-dark);
+  outline: none;
+  background: none;
+  &:hover {
+    background-color: palette(grey, x-dark);
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+.btn--light, .btn--light:active, .btn--light:focus {
+  border: 2px solid $white;
+  color: $white;
+  &:hover {
+    border: 2px solid palette(grey, x-dark);
+  }
+}
